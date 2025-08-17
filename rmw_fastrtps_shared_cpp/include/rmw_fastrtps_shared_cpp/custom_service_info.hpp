@@ -205,7 +205,7 @@ public:
 
   size_t get_unread_resquests()
   {
-    return info_->request_reader_->get_unread_count(true);
+    return info_->request_reader_->get_unread_count();
   }
 
   void

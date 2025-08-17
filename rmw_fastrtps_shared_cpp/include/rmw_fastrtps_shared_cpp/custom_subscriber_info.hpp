@@ -163,7 +163,7 @@ public:
 
   size_t get_unread_messages()
   {
-    return subscriber_info_->data_reader_->get_unread_count(true);
+    return subscriber_info_->data_reader_->get_unread_count();
   }
 
   RMW_FASTRTPS_SHARED_CPP_PUBLIC
